@@ -6,7 +6,7 @@ module.exports = {
     networks: {
       hardhat: {},
       goerli: {
-        url: "https://rpc.ankr.com/eth_goerli",
+        url: "https://goerli.infura.io/v3/5c1f72b4e68044e6a3aa7a68ee3a4a19",
         accounts: [`0x${process.env.PRIVATE_KEY}`]
       }
     },
